@@ -1,83 +1,80 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" dir="ltr">
+
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="styles.css">
-  <title>Document</title>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <meta charset="utf-8">
+  <title>Sumit personal site</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="css/favicon.ico">
 </head>
+
 <body>
-  <!-- header portion -->
-  <div class="header">
-    <img src="https://i.postimg.cc/MGyd7wx3/shopping-cart-logo-design-vector-21804322-removebg-preview.png" alt="" height="45px" width="45px">
-    <a href="#default" class="logo" style="color: #990000;">RED SHOP <h5 style="display:inline;"  >.com</h5></a>
-    <div class="header-right">
-      <a class="active" href="#home">Home</a>
-      <a href="contact.html">Contact</a>
-      <a href="about.html">About</a>
-    </div>
-  </div>
+  <img class="Sumit" src="https://i.postimg.cc/K8tbJqy0/filename.png" alt="Sumit Profile Picture"
+  width="130"
+  height="130">
+  <h1>Sumit Rajak</h1>
+  <p><i>Student at <strong>IIT Guwahati</strong></i></p>
+  <p>I am a 1st year student.
+    I have completed c++ course and I am learning DSA and Web development with <strong>UDEMY.</strong></p>
+    <hr>
+ <h2><strong>About My College</strong></h2>
+    <!-- here is the example of adding image and some text in a table -->
+    <table cellspacing = "18">
+      <tr>
+        <td><img src="https://upload.wikimedia.org/wikipedia/en/thumb/1/12/IIT_Guwahati_Logo.svg/440px-IIT_Guwahati_Logo.svg.png" height="150" width="150"</td>
+        <td><u>Indian Institute of Technology Guwahati (IIT Guwahati) is a public technical university established by the Government of India, located in Amingaon area, North Guwahati city, in the state of Assam in India.<br>
+           It is the sixth Indian Institute of Technology established in India.<br>
+            IIT Guwahati is officially recognised as an Institute of National Importance by the government of India.<br>
+             IIT Guwahati has been ranked 7th in Engineering and 8th in Overall category in NIRF India Rankings 2021. </td></u>
+      </tr>
+    </table>
+    <h3>Topics and Programs learned.</h3>
+    <ul>
+      <li>Loops</li>
+      <li>Arrays</li>
+      <li>strings</li>
+      <li>Functions</li>
+      <li>sorting and searching</li>
+    </ul>
+    <h3>My Hobbies</h3>
+    <ol>
+      <li>Cricket</li>
+      <li>PC Games</li>
+      <li>Having Trips</li>
+    </ol>
+    <h3>You can contact me with my contact details given below</h3>
+<a href="contacts.html">Contacts</a> <br>
+<a href="Accounts.html">Accounts</a>
+<h3>Work Experiences</h3>
+<hr>
+<table cellspacing = "20">
+<thead>
+  <tr>
+    <th><strong>Dates</strong></th>
+    <th><strong>Events</strong></th> <br>
+  </tr>
+</thead>
+    <td>2018 </td> <td>Passed out 10th from JNV</td>
+  </tr>
+</table>
+<strong>Skills</strong>
+<table cellspacing = "15">
+  <tr>
+    <td>Languages</td> <td>★☆☆☆☆</td> <td>C++</td>
+  </tr>
+  <tr>
+    <td>codechef</td> <td>★☆☆☆☆</td>
+  <tr>
+    </tr> <td>codeforces</td> <td>👎</td>
+  </tr>
+</table>
 
 
-<div class="upper-part"> 
-   
- 
-
-<div class="box">
-    <form action=""  >
-
-      <input type="text" placeholder="Search.." name="search" id="input1" onchange="inputhandler(this.value)">
-</form>
-<img src="https://i.postimg.cc/vB0Z2sTz/585e4adacb11b227491c3392.png" alt="" class="search">
-</div>
-
-  
-
-
-</div>
-<!-- css card -->
-<div class="container py5">
-
-  <div class="text-center">
-      <h2 class="display-7">PRODUCTSk</h2>
-  </div>
-
-  <div class="row">
-      <ul id="home_product"></ul>
-  </div>
-
-</div>
-<!-- <section class="container"> -->
-  <!-- <div class="row">
-    <ul id="home_product"></ul>
-</div> -->
-<!-- </section> -->
-
-
-<!-- footer -->
-
-
-<div class="footer-basic">
-  <footer>
-      <div class="social"><a href="#"><i class="fa-brand fa-whatsapp"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-instagram"></i></a></div>
-      <ul class="list-inline">
-          <li class="list-inline-item"><a href="#">Home</a></li>
-          <li class="list-inline-item"><a href="#">Services</a></li>
-          <li class="list-inline-item"><a href="#">About</a></li>
-          <li class="list-inline-item"><a href="#">Terms</a></li>
-          <li class="list-inline-item"><a href="#">Privacy Policy</a></li>
-      </ul>
-      <p class="copyright"> Red Shop.com © 2022</p>
-  </footer>
-</div>
-<script src="./main.js"></script>
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
-
-
-
+    <!-- we can start out list with a specific number <ol start = "7">
+or <ol type = "i">
+<li>hope u unserstand</li>
+</ol>
+    </ol> or use roman number instead of arabic -->
 </body>
+
 </html>
